@@ -1,0 +1,383 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 328 320 504 336)
+	(text "INPUT" (rect 133 0 169 13)(font "Arial" (font_size 6)))
+	(text "resetN" (rect 9 0 52 15)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 160 20)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 328 336 504 352)
+	(text "INPUT" (rect 133 0 169 13)(font "Arial" (font_size 6)))
+	(text "PS2_CLK" (rect 9 0 72 15)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 160 20)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 328 352 504 368)
+	(text "INPUT" (rect 133 0 169 13)(font "Arial" (font_size 6)))
+	(text "PS2_DAT" (rect 9 0 71 15)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 160 20)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 336 304 504 320)
+	(text "INPUT" (rect 125 0 161 13)(font "Arial" (font_size 6)))
+	(text "CLOCK_50" (rect 5 0 79 15)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 20)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 648 568 824 584)
+	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
+	(text "keyPadValid" (rect 90 0 169 15)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 528 536 704 552)
+	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
+	(text "enter" (rect 90 0 121 19)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 536 552 712 568)
+	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
+	(text "minus" (rect 90 0 130 19)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 536 520 712 536)
+	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
+	(text "plus" (rect 90 0 118 15)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 656 504 866 520)
+	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
+	(text "keyIsPressed[1..0]" (rect 90 0 204 19)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 584 280 784 408)
+	(text "KBDINTF" (rect 5 0 67 20)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 107 31 126)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLOCK_50" (rect 0 0 75 20)(font "Intel Clear" (font_size 8)))
+		(text "CLOCK_50" (rect 21 27 96 47)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "resetN" (rect 0 0 46 20)(font "Intel Clear" (font_size 8)))
+		(text "resetN" (rect 21 43 67 63)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "PS2_CLK" (rect 0 0 63 20)(font "Intel Clear" (font_size 8)))
+		(text "PS2_CLK" (rect 21 59 84 79)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "PS2_DAT" (rect 0 0 66 20)(font "Intel Clear" (font_size 8)))
+		(text "PS2_DAT" (rect 21 75 87 95)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 200 32)
+		(output)
+		(text "keyCode[8..0]" (rect 0 0 96 20)(font "Intel Clear" (font_size 8)))
+		(text "keyCode[8..0]" (rect 97 27 193 47)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 32)(pt 184 32)(line_width 3))
+	)
+	(port
+		(pt 200 48)
+		(output)
+		(text "make" (rect 0 0 37 20)(font "Intel Clear" (font_size 8)))
+		(text "make" (rect 146 43 183 63)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 48)(pt 184 48))
+	)
+	(port
+		(pt 200 64)
+		(output)
+		(text "break" (rect 0 0 40 20)(font "Intel Clear" (font_size 8)))
+		(text "break" (rect 145 59 185 79)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 64)(pt 184 64))
+	)
+	(drawing
+		(rectangle (rect 16 16 184 112))
+	)
+)
+(symbol
+	(rect 216 480 440 624)
+	(text "keyPad_decoder" (rect 5 0 113 15)(font "Arial" ))
+	(text "inst2" (rect 8 128 39 143)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 17 15)(font "Arial" ))
+		(text "clk" (rect 21 27 38 42)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "resetN" (rect 0 0 43 15)(font "Arial" ))
+		(text "resetN" (rect 21 43 64 58)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "keyCode[8..0]" (rect 0 0 87 15)(font "Arial" ))
+		(text "keyCode[8..0]" (rect 21 59 108 74)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "make" (rect 0 0 36 15)(font "Arial" ))
+		(text "make" (rect 21 75 57 90)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "brakee" (rect 0 0 44 15)(font "Arial" ))
+		(text "brakee" (rect 21 91 65 106)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "NumberKey[1..0]" (rect 0 0 107 15)(font "Arial" ))
+		(text "NumberKey[1..0]" (rect 113 27 203 42)(font "Arial" ))
+		(line (pt 224 32)(pt 208 32)(line_width 3))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "plus" (rect 0 0 28 15)(font "Arial" ))
+		(text "plus" (rect 180 43 203 58)(font "Arial" ))
+		(line (pt 224 48)(pt 208 48))
+	)
+	(port
+		(pt 224 64)
+		(output)
+		(text "enter" (rect 0 0 33 15)(font "Arial" ))
+		(text "enter" (rect 176 59 203 74)(font "Arial" ))
+		(line (pt 224 64)(pt 208 64))
+	)
+	(port
+		(pt 224 80)
+		(output)
+		(text "minus" (rect 0 0 41 15)(font "Arial" ))
+		(text "minus" (rect 169 75 203 90)(font "Arial" ))
+		(line (pt 224 80)(pt 208 80))
+	)
+	(port
+		(pt 224 96)
+		(output)
+		(text "keyIsValid" (rect 0 0 64 15)(font "Arial" ))
+		(text "keyIsValid" (rect 149 91 203 106)(font "Arial" ))
+		(line (pt 224 96)(pt 208 96))
+	)
+	(drawing
+		(rectangle (rect 16 16 208 128))
+	)
+)
+(connector
+	(text "clk" (rect 518 296 535 315)(font "Intel Clear" ))
+	(pt 504 312)
+	(pt 584 312)
+)
+(connector
+	(text "resetN" (rect 514 312 554 331)(font "Intel Clear" ))
+	(pt 504 328)
+	(pt 584 328)
+)
+(connector
+	(pt 504 344)
+	(pt 584 344)
+)
+(connector
+	(pt 504 360)
+	(pt 584 360)
+)
+(connector
+	(text "keyCode[8..0]" (rect 792 296 879 315)(font "Intel Clear" ))
+	(pt 784 312)
+	(pt 872 312)
+	(bus)
+)
+(connector
+	(text "make" (rect 810 312 844 331)(font "Intel Clear" ))
+	(pt 784 328)
+	(pt 872 328)
+)
+(connector
+	(text "brake" (rect 811 328 845 347)(font "Intel Clear" ))
+	(pt 784 344)
+	(pt 872 344)
+)
+(connector
+	(text "clk" (rect 191 496 208 515)(font "Intel Clear" ))
+	(pt 168 512)
+	(pt 216 512)
+)
+(connector
+	(text "resetN" (rect 178 512 218 531)(font "Intel Clear" ))
+	(pt 168 528)
+	(pt 216 528)
+)
+(connector
+	(text "keyCode[8..0]" (rect 120 528 207 547)(font "Intel Clear" ))
+	(pt 104 544)
+	(pt 216 544)
+	(bus)
+)
+(connector
+	(text "make" (rect 154 544 188 563)(font "Intel Clear" ))
+	(pt 104 560)
+	(pt 216 560)
+)
+(connector
+	(text "brake" (rect 155 560 189 579)(font "Intel Clear" ))
+	(pt 104 576)
+	(pt 216 576)
+)
+(connector
+	(pt 440 528)
+	(pt 536 528)
+)
+(connector
+	(pt 440 544)
+	(pt 528 544)
+)
+(connector
+	(pt 440 560)
+	(pt 536 560)
+)
+(connector
+	(pt 440 576)
+	(pt 648 576)
+)
+(connector
+	(pt 656 512)
+	(pt 440 512)
+	(bus)
+)
+(text "// (c) Technion IIT, Department of Electrical Engineering 2025" (rect 152 176 580 196)(font "Intel Clear" (font_size 8)))

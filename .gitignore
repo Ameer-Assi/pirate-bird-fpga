@@ -1,0 +1,51 @@
+# Quartus build output
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+qdb/
+tmp-clearbox/
+*.qws
+*.bak
+*.rpt
+*.summary
+*.smsg
+*.qarlog
+*.qar
+*.qdf
+*.sof
+*.pof
+*.done
+*.jdi
+*.sld
+*.pin
+
+# Simulation output
+simulation/
+work/
+transcript
+*.wlf
+*.ver
+
+# SignalTap debug sessions
+*.stp
+
+# Report material and local files (not for publication)
+*.docx
+*.pptx
+schematic_marked.png
+qar_info.json
+c5_pin_model_dump.txt
+
+# Unused files
+RTL/VGA/square_Hart_object.sv
+RTL/VGA/simple_up_counter_7_bits.sv
+simple_up_counter_7_bits.bsf
+RTL/AUDIO/JukeBox1.sv
+RTL/AUDIO/songs.mif
+RTL/vga_bg.mif
+RTL/muzzle_flash.mif
+RTL/tophat_bird_32x32.mif
+RTL/sounds.mif
+RTL/flap_sound.mif
+constraints/DE10_Standard_Audio.sdc

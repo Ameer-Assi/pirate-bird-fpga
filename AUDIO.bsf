@@ -1,0 +1,86 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 256 176)
+	(text "AUDIO" (rect 5 0 52 20)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 137 31 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "volume" (rect 0 0 53 20)(font "Intel Clear" (font_size 8)))
+		(text "volume" (rect 21 27 74 47)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clk" (rect 0 0 20 20)(font "Intel Clear" (font_size 8)))
+		(text "clk" (rect 21 43 41 63)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "resetN" (rect 0 0 46 20)(font "Intel Clear" (font_size 8)))
+		(text "resetN" (rect 21 59 67 79)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "keypadValid" (rect 0 0 87 20)(font "Intel Clear" (font_size 8)))
+		(text "keypadValid" (rect 21 75 108 95)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "gameOver" (rect 0 0 71 20)(font "Intel Clear" (font_size 8)))
+		(text "gameOver" (rect 21 91 92 111)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "shoot_signal" (rect 0 0 90 20)(font "Intel Clear" (font_size 8)))
+		(text "shoot_signal" (rect 21 107 111 127)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "AUDIN[1..2]" (rect 0 0 81 20)(font "Intel Clear" (font_size 8)))
+		(text "AUDIN[1..2]" (rect 21 123 102 143)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "AUDOUT[4..7]" (rect 0 0 97 20)(font "Intel Clear" (font_size 8)))
+		(text "AUDOUT[4..7]" (rect 122 27 219 47)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 32)(pt 224 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 144))
+	)
+)

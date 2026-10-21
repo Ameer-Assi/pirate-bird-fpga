@@ -1,0 +1,100 @@
+-- 1024*sin(a) in [21:11], 1024*cos(a) in [10:0], a = 0..90 deg
+WIDTH=22;
+DEPTH=128;
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0 : 000400;  --  0 deg: sin=   0 cos=1024
+	1 : 009400;  --  1 deg: sin=  18 cos=1024
+	2 : 0123FF;  --  2 deg: sin=  36 cos=1023
+	3 : 01B3FF;  --  3 deg: sin=  54 cos=1023
+	4 : 023BFE;  --  4 deg: sin=  71 cos=1022
+	5 : 02CBFC;  --  5 deg: sin=  89 cos=1020
+	6 : 035BFA;  --  6 deg: sin= 107 cos=1018
+	7 : 03EBF8;  --  7 deg: sin= 125 cos=1016
+	8 : 047BF6;  --  8 deg: sin= 143 cos=1014
+	9 : 0503F3;  --  9 deg: sin= 160 cos=1011
+	10 : 0593F0;  -- 10 deg: sin= 178 cos=1008
+	11 : 061BED;  -- 11 deg: sin= 195 cos=1005
+	12 : 06ABEA;  -- 12 deg: sin= 213 cos=1002
+	13 : 0733E6;  -- 13 deg: sin= 230 cos= 998
+	14 : 07C3E2;  -- 14 deg: sin= 248 cos= 994
+	15 : 084BDD;  -- 15 deg: sin= 265 cos= 989
+	16 : 08D3D8;  -- 16 deg: sin= 282 cos= 984
+	17 : 095BD3;  -- 17 deg: sin= 299 cos= 979
+	18 : 09E3CE;  -- 18 deg: sin= 316 cos= 974
+	19 : 0A6BC8;  -- 19 deg: sin= 333 cos= 968
+	20 : 0AF3C2;  -- 20 deg: sin= 350 cos= 962
+	21 : 0B7BBC;  -- 21 deg: sin= 367 cos= 956
+	22 : 0C03B5;  -- 22 deg: sin= 384 cos= 949
+	23 : 0C83AF;  -- 23 deg: sin= 400 cos= 943
+	24 : 0D03A7;  -- 24 deg: sin= 416 cos= 935
+	25 : 0D8BA0;  -- 25 deg: sin= 433 cos= 928
+	26 : 0E0B98;  -- 26 deg: sin= 449 cos= 920
+	27 : 0E8B90;  -- 27 deg: sin= 465 cos= 912
+	28 : 0F0B88;  -- 28 deg: sin= 481 cos= 904
+	29 : 0F8380;  -- 29 deg: sin= 496 cos= 896
+	30 : 100377;  -- 30 deg: sin= 512 cos= 887
+	31 : 107B6E;  -- 31 deg: sin= 527 cos= 878
+	32 : 10FB64;  -- 32 deg: sin= 543 cos= 868
+	33 : 11735B;  -- 33 deg: sin= 558 cos= 859
+	34 : 11EB51;  -- 34 deg: sin= 573 cos= 849
+	35 : 125B47;  -- 35 deg: sin= 587 cos= 839
+	36 : 12D33C;  -- 36 deg: sin= 602 cos= 828
+	37 : 134332;  -- 37 deg: sin= 616 cos= 818
+	38 : 13B327;  -- 38 deg: sin= 630 cos= 807
+	39 : 14231C;  -- 39 deg: sin= 644 cos= 796
+	40 : 149310;  -- 40 deg: sin= 658 cos= 784
+	41 : 150305;  -- 41 deg: sin= 672 cos= 773
+	42 : 156AF9;  -- 42 deg: sin= 685 cos= 761
+	43 : 15D2ED;  -- 43 deg: sin= 698 cos= 749
+	44 : 163AE1;  -- 44 deg: sin= 711 cos= 737
+	45 : 16A2D4;  -- 45 deg: sin= 724 cos= 724
+	46 : 170AC7;  -- 46 deg: sin= 737 cos= 711
+	47 : 176ABA;  -- 47 deg: sin= 749 cos= 698
+	48 : 17CAAD;  -- 48 deg: sin= 761 cos= 685
+	49 : 182AA0;  -- 49 deg: sin= 773 cos= 672
+	50 : 188292;  -- 50 deg: sin= 784 cos= 658
+	51 : 18E284;  -- 51 deg: sin= 796 cos= 644
+	52 : 193A76;  -- 52 deg: sin= 807 cos= 630
+	53 : 199268;  -- 53 deg: sin= 818 cos= 616
+	54 : 19E25A;  -- 54 deg: sin= 828 cos= 602
+	55 : 1A3A4B;  -- 55 deg: sin= 839 cos= 587
+	56 : 1A8A3D;  -- 56 deg: sin= 849 cos= 573
+	57 : 1ADA2E;  -- 57 deg: sin= 859 cos= 558
+	58 : 1B221F;  -- 58 deg: sin= 868 cos= 543
+	59 : 1B720F;  -- 59 deg: sin= 878 cos= 527
+	60 : 1BBA00;  -- 60 deg: sin= 887 cos= 512
+	61 : 1C01F0;  -- 61 deg: sin= 896 cos= 496
+	62 : 1C41E1;  -- 62 deg: sin= 904 cos= 481
+	63 : 1C81D1;  -- 63 deg: sin= 912 cos= 465
+	64 : 1CC1C1;  -- 64 deg: sin= 920 cos= 449
+	65 : 1D01B1;  -- 65 deg: sin= 928 cos= 433
+	66 : 1D39A0;  -- 66 deg: sin= 935 cos= 416
+	67 : 1D7990;  -- 67 deg: sin= 943 cos= 400
+	68 : 1DA980;  -- 68 deg: sin= 949 cos= 384
+	69 : 1DE16F;  -- 69 deg: sin= 956 cos= 367
+	70 : 1E115E;  -- 70 deg: sin= 962 cos= 350
+	71 : 1E414D;  -- 71 deg: sin= 968 cos= 333
+	72 : 1E713C;  -- 72 deg: sin= 974 cos= 316
+	73 : 1E992B;  -- 73 deg: sin= 979 cos= 299
+	74 : 1EC11A;  -- 74 deg: sin= 984 cos= 282
+	75 : 1EE909;  -- 75 deg: sin= 989 cos= 265
+	76 : 1F10F8;  -- 76 deg: sin= 994 cos= 248
+	77 : 1F30E6;  -- 77 deg: sin= 998 cos= 230
+	78 : 1F50D5;  -- 78 deg: sin=1002 cos= 213
+	79 : 1F68C3;  -- 79 deg: sin=1005 cos= 195
+	80 : 1F80B2;  -- 80 deg: sin=1008 cos= 178
+	81 : 1F98A0;  -- 81 deg: sin=1011 cos= 160
+	82 : 1FB08F;  -- 82 deg: sin=1014 cos= 143
+	83 : 1FC07D;  -- 83 deg: sin=1016 cos= 125
+	84 : 1FD06B;  -- 84 deg: sin=1018 cos= 107
+	85 : 1FE059;  -- 85 deg: sin=1020 cos=  89
+	86 : 1FF047;  -- 86 deg: sin=1022 cos=  71
+	87 : 1FF836;  -- 87 deg: sin=1023 cos=  54
+	88 : 1FF824;  -- 88 deg: sin=1023 cos=  36
+	89 : 200012;  -- 89 deg: sin=1024 cos=  18
+	90 : 200000;  -- 90 deg: sin=1024 cos=   0
+	[91..127] : 000000;
+END;
