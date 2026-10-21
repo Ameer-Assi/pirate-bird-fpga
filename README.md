@@ -4,7 +4,11 @@ A Flappy Bird-style game in SystemVerilog for an Intel Cyclone V FPGA (Terasic D
 
 ![Gameplay on the DE10-Standard: keypad, board and VGA monitor](docs/gameplay.gif)
 
-Demo video: TODO (add link)
+
+
+https://github.com/user-attachments/assets/6f497f54-0f02-46c0-b218-dc069d4eb7e7
+
+
 
 ## Highlights
 
