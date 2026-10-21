@@ -2,8 +2,7 @@
 
 A Flappy Bird-style game in SystemVerilog for an Intel Cyclone V FPGA (Terasic DE10-Standard), with 640x480 VGA output, PS/2 keyboard input and sound.
 
-<!-- TODO: add the gameplay GIF at docs/gameplay.gif -->
-![Gameplay](docs/gameplay.gif)
+![Gameplay on the DE10-Standard: keypad, board and VGA monitor](docs/gameplay.gif)
 
 Demo video: TODO (add link)
 
